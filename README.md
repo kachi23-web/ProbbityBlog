@@ -1,20 +1,20 @@
 # ProbbityBlog
 Node.js Blog API This is a simple Node.js blog application with CRUD operations, user authentication, and a user interface built :
 
-Node.js
-Express
-MongoDB
-Handlebars
+* Node.js
+* Express
+* MongoDB
+* Handlebars
 
 **Getting Started**
 Prerequisites
-Node.js (v14 or higher)
-MongoDB
-Installation
-Clone the repository:
+* Node.js (v14 or higher)
+* MongoDB
+* Installation
+* Clone the repository:
 git clone https://github.com/kachi23-web/ProbbbityBlog.git
-Install the dependencies:
 
+* Install the dependencies:
 cd nodejs-blog-api
 npm install
 Set the environment variables:
@@ -30,10 +30,10 @@ The server will be running at http://localhost:3000.
 
 **Features**
 
-User authentication (login and registration)
-CRUD operations for posts
-Pagination of posts
-Search functionality for posts
+* User authentication (login and registration)
+* CRUD operations for posts
+* Pagination of posts
+* Search functionality for posts
 
 **Installation**
 
@@ -45,14 +45,14 @@ Set environment variables: cp .env.example .env and fill in the required variabl
 **API Endpoints
 Authentication**
 
-POST /api/login: User login
-POST /api/register: User registration
-Posts
-GET /api/posts: Get all posts
-GET /api/posts/:id: Get a specific post by ID
-POST /api/posts: Create a new post
-PUT /api/posts/:id: Update a specific post by ID
-DELETE /api/posts/:id: Delete a specific post by ID
+[^]POST /api/login: User login
+[^]POST /api/register: User registration
+[^] **Posts**
+[^]GET /api/posts: Get all posts
+[^]GET /api/posts/:id: Get a specific post by ID
+[^]POST /api/posts: Create a new post
+[^]PUT /api/posts/:id: Update a specific post by ID
+[^]DELETE /api/posts/:id: Delete a specific post by ID
 
 **Pagination**
 GET /api/posts?page=<page>&limit=<limit>: Get paginated posts
